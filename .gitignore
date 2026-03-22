@@ -1,0 +1,26 @@
+# Terraform
+objective1-terraform/.terraform/
+objective1-terraform/.terraform.lock.hcl
+objective1-terraform/terraform.tfstate
+objective1-terraform/terraform.tfstate.backup
+objective1-terraform/*.tfvars
+!objective1-terraform/*.tfvars.example
+objective1-terraform/crash.log
+
+# Docker volumes
+objective2-docker/grafana_data/
+objective2-docker/prometheus_data/
+
+# Environment files
+.env
+*.env.local
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
