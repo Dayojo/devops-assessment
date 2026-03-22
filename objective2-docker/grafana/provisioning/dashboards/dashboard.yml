@@ -1,0 +1,17 @@
+###############################################################
+# grafana/provisioning/dashboards/dashboard.yml
+# Tells Grafana where to look for pre-built dashboard JSON files
+###############################################################
+apiVersion: 1
+
+providers:
+  - name: "DevOps Assessment"
+    orgId: 1
+    folder: "DevOps Assessment"
+    folderUid: "devops-assessment"
+    type: file
+    disableDeletion: false
+    editable: true
+    updateIntervalSeconds: 30
+    options:
+      path: /var/lib/grafana/dashboards

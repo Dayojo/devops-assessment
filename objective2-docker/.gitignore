@@ -1,0 +1,15 @@
+# Docker volumes and generated files
+grafana_data/
+prometheus_data/
+
+# Environment files
+.env
+*.env.local
+
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+*.swp
